@@ -1,12 +1,31 @@
-.fils{
-     height: 10px;
-  width: 300px;
-}
-.divf{
-    border: 3px solid red ;
-    padding: 30px ;
+.div {
+  border: 3px dashed #e67e22; 
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+  background-color: #fffaf5;
 }
 
-.cc{
-    color: rgb(17, 84, 240);
+.fils {
+  padding: 8px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #d35400;
+}
+
+.cc {
+  font-weight: bold;
+  color: #27ae60;
 }

@@ -1,8 +1,20 @@
-.paranti{
-  height: 10px;
-  width: 300px;
+.div {
+  border: 3px solid #3498db; /* Bleu pour le parent */
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #f0f7ff;
+  font-family: sans-serif;
 }
-.divp{
-    border: 3px solid black ;
-    padding: 30px ;
+
+h1 {
+  color: #2c3e50;
+  margin-left: 10px;
+}
+
+.paranti {
+  padding: 8px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  margin-right: 10px;
 }

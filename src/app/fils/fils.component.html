@@ -1,10 +1,21 @@
-<h1>C est un composant fils</h1>
+<h1>C'est un composant fils</h1>
 
+<div class="div">
+  <p>This is a fils</p>
 
-<div class="divf">
-  this is a fils
   <input class="fils" [(ngModel)]="valfils">
-  
-  <button class="btn" (click)="EmitterUneValeur()">senf</button>
-  la valeur depuis parent: <span class="cc">{{valeurDParent}}</span>
-  </div>
+
+  <button class="btn" (click)="afficherdata()" (click)="EmitterUneValeur()">Send</button>
+
+  <p>
+    La valeur depuis parent:
+    <span class="cc">{{ valeurDParent }}</span>
+  </p>
+</div>
+
+
+<ul>
+  <li *ngFor="let item of data">
+    {{ item }}
+  </li>
+</ul>

@@ -1,9 +1,20 @@
 <h1>C est un composant parent</h1>
 
 
-<div class="divp">
+<div class="div">
   this is a parent
   <input class="paranti" [(ngModel)]="valparent">
+    <button class="btn" (click)="add()" >botonaaaa</button>
+
   <span>la valeur depuis fils {{valf}}</span>
   <app-fils [valeurDParent]="valparent" (valeurFilsEvent)="valeurDfils($event)"></app-fils>
-  </div>
+
+</div>
+
+
+
+<ul>
+  <li *ngFor="let item of data">
+    {{ item }}
+  </li>
+</ul>
